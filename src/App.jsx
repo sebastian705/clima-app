@@ -4,7 +4,6 @@ import Weather from './components/Weather';
 import Map from './components/Map';
 import FormWeather from './components/FormWeather';
 
-
 const App = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
